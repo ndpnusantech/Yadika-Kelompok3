@@ -1,0 +1,23 @@
+.about {
+    height: 100vh;
+    display: flex;
+    margin-left: 100px;
+}
+.judul {
+    color: white;
+    margin-top: 60px;
+    font-size: 3rem;
+    margin-left: 20px;
+}
+.pengertian{
+    margin-top: 150px;
+    position: absolute;
+    color: white;
+}
+.pengertian span {
+    color: white;
+    font-size: 30px;
+}
+.hotel2 {
+    margin-left: 40%;
+}
