@@ -1,5 +1,4 @@
-import MainLogin from "../main/mainLogin"
-
+import MainLogin from "../components/main/mainLogin"
 
 const Login = () => {
     return(

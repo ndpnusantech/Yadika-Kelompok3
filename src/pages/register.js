@@ -1,4 +1,5 @@
-import MainRegister from "../main/mainRegister"
+import MainRegister from "../components/main/mainRegister"
+
 
 const Register = () => {
     return(
