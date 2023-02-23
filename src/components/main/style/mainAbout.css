@@ -1,28 +1,41 @@
-/* *{
-    margin: 0;
-    padding: 0;
-} */
-
 .about {
     height: 100vh;
-    display: flex;
-    margin-left: 100px;
+    position: relative;
 }
-.judul {
-    color: white;
-    margin-top: 60px;
-    font-size: 3rem;
-    margin-left: 20px;
-}
-.pengertian{
-    margin-top: 150px;
+.white {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #fff;
+    opacity: 0.7;
     position: absolute;
-    color: white;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.pengertian span {
-    color: white;
-    font-size: 30px;
+
+hr {
+    height: 4px;
+    width: 40%;
+    background-color: #000;
+    margin: 20px 0;
+    opacity: 0.9;
 }
+
+.about h1 {
+    color: black;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
 .hotel2 {
-    margin-left: 40%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 120px;
+    border-radius: 20px;
+    width: 80%;
+    height: 60%;
 }
