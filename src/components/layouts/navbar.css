@@ -9,7 +9,7 @@ body {
     padding: 10px;
     background-color: #950101;
 }
-img {
+.navbarimg {
     margin-top: -6px;
    position: absolute;
 }

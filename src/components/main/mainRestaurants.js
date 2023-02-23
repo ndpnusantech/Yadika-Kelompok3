@@ -8,11 +8,11 @@ const MainRestaurants = () => {
             <h1 className='icon'><span></span>Food And Drink Menu</h1>
             </div>
             <ul className='p'>
-                <li className='p'><img src="./images/kamar.jpeg" width={300}/></li>
+                <li className='p'><img src="./images/kamar.jpeg" alt='.' width={300}/></li>
                 <p className="food">Nama Makanan</p>
-                <li className='p'><img src="./images/kamar.jpeg" width={300}/></li>
+                <li className='p'><img src="./images/kamar.jpeg" alt='.' width={300}/></li>
                 <p className="food2">Nama Makanan</p>
-                <li className='p'><img src="./images/kamar.jpeg" width={300}/></li>
+                <li className='p'><img src="./images/kamar.jpeg" alt='.' width={300}/></li>
                 <p className="food3">Nama Makanan</p>
             </ul>
         </div>
