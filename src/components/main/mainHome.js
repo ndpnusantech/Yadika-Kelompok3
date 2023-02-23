@@ -1,33 +1,32 @@
 import Carousel from 'react-bootstrap/Carousel';
+import './style/mainHome.css'
 
-
-const MainHome = () => {
-    return(
-<Carousel>
+function MainHome() {
+  return (
+    <Carousel slide={false}>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="./images/hotel2.png"
+          className="gambar1"
+          src="./images/kamar.jpeg"
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="./Hotel.png"
+          className="gambar1"
+          src="./images/kamar.jpeg"
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          className="gambar1"
+          src="./images/kamar.jpeg"
           alt="Third slide"
         />
       </Carousel.Item>
     </Carousel>
-
-    )
+  );
 }
 
-export default MainHome
+export default MainHome;
