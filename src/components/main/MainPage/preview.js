@@ -4,7 +4,7 @@ import kamar from './data';
 const Slide = () => {
     return(
 
-<Carousel>
+<Carousel style={{height: '150vh',}}>
         {kamar.map((kamar) => {
           return (
             <Carousel.Item id={kamar.id} interval={5000}>
@@ -13,10 +13,9 @@ const Slide = () => {
                 src={kamar.img}
                 alt="First slide"
                 style={{
-                  paddingTop: '20px',
                   margin: 'auto', 
-                  width: '83%',
-                  height: '565px',
+                  width: '100%',
+                  height: '100%',
                   marginBottom: '3%',
                   objectFit: 'cover',
                 }}

@@ -1,12 +1,4 @@
-.pilihanKamar {
-    margin-left: 25px;
+.card1{
+    display: flex;
+    margin: 60px;
 }
-
-.pilihanKamar1 {
-    margin-left: 60px;
-}
-
-.pilihanKamar2 {
-    margin-left: 60px;
-}
-

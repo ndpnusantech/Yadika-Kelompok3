@@ -13,4 +13,4 @@ const kamar = [
 }
 ];
 
-export default kamar
+export default kamar ;

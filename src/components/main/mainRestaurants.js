@@ -4,6 +4,7 @@ import './style/mainRestaurants.css'
 const MainRestaurants = () => {
     return(
         <div className="menu">
+            <img className='Menu-img' src='./images/hotel1.jpg'/>
             <div className="g">
             <h1 className='icon'><span></span>Food And Drink Menu</h1>
             </div>
