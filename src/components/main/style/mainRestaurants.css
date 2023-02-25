@@ -7,7 +7,7 @@
     height: 100px;
     filter: brightness(40%);
 }
-.g {
+.menu-restaurant {
     margin-top: 100px;
 }
 .p {
@@ -27,7 +27,7 @@
 
 .icon {
     position: absolute;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: black;
     margin-top: -40px;
     margin-left: 100px;

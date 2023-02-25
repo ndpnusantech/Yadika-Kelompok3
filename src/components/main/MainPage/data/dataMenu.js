@@ -23,6 +23,12 @@ const dataMenu = [
         harga:'Jus',
         text: 'Rp. 20.000'
     },
+    {
+        id: 4,
+        image:'./images/krab.jpeg',
+        harga:'Jus',
+        text: 'Rp. 20.000'
+    },
 ]
 
 export default dataMenu

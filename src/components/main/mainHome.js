@@ -9,7 +9,7 @@ const MainHome = () => {
         <Slide />
       </>
       <div className="judul">
-        <h1>All Kinds of Rooms</h1>
+        <h1 className="text-judul">All Kinds of Rooms</h1>
         <hr />
       </div>
       <div className="Cardss">

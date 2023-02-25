@@ -3,7 +3,7 @@ import './navbar.css'
 const Navbar = () => {
     return (
             <div className='navbar'>
-                <img src="./images/logo.png" className='navbarimg' alt="" width={45} />
+                <img src="./images/logo.png" className='navbarimg' alt="" width={40} />
                 <h2>ooheng</h2>
                 <ul>
                     <li><a href="/">Home</a></li>
