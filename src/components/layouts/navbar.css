@@ -4,20 +4,23 @@
 }
 
 /* background-color: #D48166; */
- .navbar {
+.navbar {
     padding: 1px;
-        position: fixed;
-        top: 10px;
-        left: 0;
-        width: 100%;
-        padding: 10px;
-        background-color: rgba(184, 184, 184, 0.5); /* set opacity pada background */
-        color: #000; /* warna teks pada navbar */
-        z-index: 999;
-        transition: top 0.3s ease-in-out;
-    
-  
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(184, 184, 184, 0.5);
+    /* set opacity pada background */
+    color: #000;
+    /* warna teks pada navbar */
+    z-index: 999;
+    transition: top 0.3s ease-in-out;
+
+
 }
+
 .navbarimg {
     margin-left: 15px;
     position: absolute;
@@ -41,7 +44,12 @@ li {
 }
 
 a {
-    font-size: 17px;
+    font-size: 18px;
     color: white;
     text-decoration: none;
+    cursor: pointer;
+    color: wheat;
+}
+a :hover {
+    transform: scale(0.90);
 }

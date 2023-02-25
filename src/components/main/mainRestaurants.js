@@ -1,4 +1,7 @@
 import './style/mainRestaurants.css'
+import React from 'react';
+import { Card } from 'react-bootstrap';
+import data from '../main/MainPage/data/dataMenu';
 
 
 const MainRestaurants = () => {
@@ -9,12 +12,15 @@ const MainRestaurants = () => {
             <h1 className='icon'><span></span>Food And Drink Menu</h1>
             </div>
             <ul className='p'>
-                <li className='p'><img src="./images/jus.jpeg" alt='.' width={300}/></li>
-                <p className="food">Jus Rp. 15.000</p>
-                <li className='p1'><img src="./images/krab.jpeg" alt='.' width={300}/></li>
-                <p className="food2">krabby Patty Rp.  30.000</p>
-                <li className='p2'><img src="./images/nasgor.jpeg" alt='.' width={300}/></li>
-                <p className="food3">Nasi Goreng Rp. 20.000</p>
+            {data.map((card) => (
+                        <Card key={card.id} style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={card.image} />
+                            <Card.Body>
+                                <Card.Title>{card.harga}</Card.Title>
+                                <Card.Text>{card.text}</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    ))}
             </ul>
         </div>
     )

@@ -2,7 +2,6 @@ import './navbar.css'
 
 const Navbar = () => {
     return (
-        <>
             <div className='navbar'>
                 <img src="./images/logo.png" className='navbarimg' alt="" width={45} />
                 <h2>ooheng</h2>
@@ -12,7 +11,6 @@ const Navbar = () => {
                     <li><a href="/restaurants">Restaurant</a></li>
                 </ul>
             </div>
-        </>
     )
 }
 

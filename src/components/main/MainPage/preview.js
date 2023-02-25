@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import kamar from './data';
+import kamar from './data/data';
 
 const Slide = () => {
     return(

@@ -6,11 +6,12 @@ import './footer.css'
 const Footer = () => {
     return (
         <div className="footer" >
+            <h1 className="info">Info Support Marketing</h1>
             <a href="" className="footer1"><FaWhatsapp style={{ color: 'black' }} /></a>
-            <a href="" className="footer2"><AiFillInstagram style={{ color: 'black' }} /></a>
-            <a href="" className="footer3"><TfiFacebook style={{ color: 'black' }} /></a>
+            <a href="" className="footer1"><AiFillInstagram style={{ color: 'black' }} /></a>
+            <a href="" className="footer1"><TfiFacebook style={{ color: 'black' }} /></a>
             <br /><br />
-            <h1>Info Support Marketing <br />Terms of Use Privacy Policy <br /> © 2023 Kooheng Hotel</h1>
+            <h1>Terms of Use Privacy Policy <br /> © 2023 Kooheng Hotel</h1>
         </div>
     )
 }
