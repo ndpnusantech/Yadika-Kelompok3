@@ -1,10 +1,11 @@
 import Carousel from 'react-bootstrap/Carousel';
-import kamar from './data';
+import kamar from './data/data';
+import './style/preview.css'
 
 const Slide = () => {
     return(
 
-<Carousel>
+<Carousel style={{height: '100vh',}}>
         {kamar.map((kamar) => {
           return (
             <Carousel.Item id={kamar.id} interval={5000}>
@@ -13,14 +14,20 @@ const Slide = () => {
                 src={kamar.img}
                 alt="First slide"
                 style={{
-                  paddingTop: '20px',
                   margin: 'auto', 
-                  width: '83%',
-                  height: '565px',
+                  width: '100%',
+                  height: '700px',
                   marginBottom: '3%',
                   objectFit: 'cover',
                 }}
               />
+              <div className="text">
+                <p className='des1'>Luxury Room</p>
+                <div className="des2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>Test</button>
+                </div>
+                </div>
             </Carousel.Item>
           );
         })}
