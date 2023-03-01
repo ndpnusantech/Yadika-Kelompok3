@@ -1,5 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import kamar from './data/data';
+// import data from './data/data2';
+// import content from './data/dataDesc';
 import './style/preview.css'
 
 const Slide = () => {
@@ -7,7 +9,7 @@ const Slide = () => {
 
 <Carousel style={{height: '100vh',}}>
         {kamar.map((kamar) => {
-          return (
+        return(
             <Carousel.Item id={kamar.id} interval={5000}>
               <img
                 className="d-flex "
@@ -22,9 +24,9 @@ const Slide = () => {
                 }}
               />
               <div className="text">
-                <p className='des1'>Luxury Room</p>
+                <p className='des1'>Deluxe room</p>
                 <div className="des2">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Ruangan ini diisi dengan double bed</p>
                 <button>Test</button>
                 </div>
                 </div>

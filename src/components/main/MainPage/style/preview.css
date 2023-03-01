@@ -22,9 +22,10 @@
   }
 
   .des2 button{
-    margin-left: 300px;
-    width: 90px;
+    margin-left: 400px;
+    width: 100px;
     height: 40px;
     border-radius: 10px;
+    border: none;
     background-color: white;
   }

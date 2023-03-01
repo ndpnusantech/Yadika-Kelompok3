@@ -1,4 +1,5 @@
-import Desc from "./MainPage/desc";
+import Collom from "./MainPage/collom";
+// import Desc from "./MainPage/desc";
 import Pilihan from "./MainPage/Pilihan";
 import Slide from "./MainPage/preview"
 import "./style/mainHome.css"
@@ -18,6 +19,9 @@ const MainHome = () => {
       <div className="Cardss">
         <Pilihan />
       </div>
+      <>
+      <Collom />
+      </>
     </div>
   )
 }
