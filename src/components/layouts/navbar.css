@@ -28,7 +28,7 @@
 
 .navbar h2 {
     position: absolute;
-    margin-left: 59px;
+    margin-left: 55px;
     font-size: 30px;
 }
 
@@ -48,7 +48,6 @@ a {
     color: white;
     text-decoration: none;
     cursor: pointer;
-    color: wheat;
 }
 a:hover {
     color: black;

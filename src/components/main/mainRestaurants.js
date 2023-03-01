@@ -16,8 +16,8 @@ const MainRestaurants = () => {
                         <Card key={card.id} style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={card.image} />
                             <Card.Body>
-                                <Card.Title className='fs-6'>{card.harga}</Card.Title>
-                                <Card.Text className='fs-6'>{card.text}</Card.Text>
+                                <Card.Title className='fs-6'>{card.text}</Card.Title>
+                                <Card.Text className='fs-6'>{card.harga}</Card.Text>
                             </Card.Body>
                         </Card>
                     ))}
