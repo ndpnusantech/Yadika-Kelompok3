@@ -5,6 +5,33 @@
 
 .hotel2 {
     width: 100%;
-    height: 100px;
+    height: 250px;
     filter: brightness(40%);
+}
+.about-img h1 {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    color: white;
+}
+
+.about-text{
+    width: 70%;
+    height: 235px;
+    margin-top: -90px;
+    background-color: black;
+    filter: brightness(40%);
+    position: absolute;
+    top: 17%;
+    left: 14%;
+}
+.about-img hr {
+    height: 5px;
+    background-color: black;
+}
+
+.about-bootsrap {
+    display: flex;
+    margin-top: 50px;
 }
