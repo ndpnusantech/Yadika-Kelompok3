@@ -1,4 +1,4 @@
-import MainRegister from "../components/main/mainRegister"
+import MainRegister from "../../components/userComponents/mainSection/mainRegister"
 
 
 const Register = () => {

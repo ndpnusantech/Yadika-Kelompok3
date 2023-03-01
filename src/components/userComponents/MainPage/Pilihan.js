@@ -1,7 +1,7 @@
 import './style/pilihan.css'
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
-import data from './data/data2';
+import data from '../data/data2';
 
 const Pilihan = () => {
     return (

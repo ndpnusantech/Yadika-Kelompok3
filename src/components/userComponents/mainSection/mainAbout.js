@@ -1,6 +1,6 @@
 import './style/mainAbout.css'
 import Card from 'react-bootstrap/Card';
-import dataPembuat from './MainPage/data/dataPembuat';
+import dataPembuat from '../data/dataPembuat';
 const MainAbout = () => {
     return (
         <>

@@ -1,7 +1,7 @@
 import './style/mainRestaurants.css'
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import data from '../main/MainPage/data/dataMenu';
+import data from '../data/dataMenu';
 
 
 const MainRestaurants = () => {

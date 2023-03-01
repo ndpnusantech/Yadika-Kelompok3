@@ -1,7 +1,7 @@
-import Collom from "./MainPage/collom";
+import Collom from "../MainPage/collom";
 // import Desc from "./MainPage/desc";
-import Pilihan from "./MainPage/Pilihan";
-import Slide from "./MainPage/preview"
+import Pilihan from "../MainPage/Pilihan";
+import Slide from "../MainPage/preview"
 import "./style/mainHome.css"
 
 const MainHome = () => {
