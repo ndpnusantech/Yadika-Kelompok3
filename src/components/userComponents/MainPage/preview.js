@@ -1,26 +1,35 @@
 import Carousel from 'react-bootstrap/Carousel';
-import kamar from './data';
+import kamar from '../data/data';
+// import data from './data/data2';
+// import content from './data/dataDesc';
+import './style/preview.css'
 
 const Slide = () => {
     return(
 
-<Carousel>
+<Carousel style={{height: '100vh',}}>
         {kamar.map((kamar) => {
-          return (
+        return(
             <Carousel.Item id={kamar.id} interval={5000}>
               <img
                 className="d-flex "
                 src={kamar.img}
                 alt="First slide"
                 style={{
-                  paddingTop: '20px',
                   margin: 'auto', 
-                  width: '83%',
-                  height: '565px',
+                  width: '100%',
+                  height: '700px',
                   marginBottom: '3%',
                   objectFit: 'cover',
                 }}
               />
+              <div className="text">
+                <p className='des1'>Deluxe room</p>
+                <div className="des2">
+                <p>Ruangan ini diisi dengan double bed</p>
+                <button>Test</button>
+                </div>
+                </div>
             </Carousel.Item>
           );
         })}

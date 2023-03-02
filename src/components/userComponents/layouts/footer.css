@@ -1,0 +1,24 @@
+.footer {
+    border: 1px solid wheat;
+    background-color: wheat ;
+    opacity: 0.9;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer1 {
+    font-size: 25px;
+    margin-left: 25px;
+}
+.footer1 :hover {
+    transform: scale(0.95);
+    color: white;
+}
+
+.footer h1 {
+    margin-left: 10px;
+    font-size: 15px;
+}
+.footer .info {
+    margin-top: 10px;
+}
