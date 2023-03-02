@@ -4,6 +4,7 @@ import Restaurants from './pages/pagesUser/restaurants'
 import Login from './pages/pagesUser/login';
 import Register from './pages/pagesUser/register';
 import Home from './pages/pagesUser/home'
+import './app.css'
 
 function App() {
   return (
