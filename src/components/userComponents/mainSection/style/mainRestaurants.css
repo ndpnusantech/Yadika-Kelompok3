@@ -22,7 +22,11 @@
 }
 .p2{
     margin-top: 80px;
-    margin-left: 180px;
+/* <<<<<<< HEAD:src/components/main/style/mainRestaurants.css */
+    /* margin-left: 250px;
+=======
+    margin-left: 180px; */
+/* >>>>>>> 714ba338772ecf58e4062070f91ebab01acade45:src/components/userComponents/mainSection/style/mainRestaurants.css */
 }
 
 .icon {
@@ -35,15 +39,19 @@
 
 .food{
     margin-top: 23%;
+    color: white;
+    margin-left: 12%;
     color: black;
     margin-left: 15%;
     position: absolute;
 }
 .food2{
     margin-top: 23%;
+    color: white;
+    margin-left: 37%;
     color: black;
     margin-left: 38%;
-    position: absolute;
+   position: absolute;
 }
 .food3{
     margin-top: 23%;
