@@ -4,7 +4,10 @@ import Restaurants from './pages/pagesUser/restaurants'
 import Login from './pages/pagesUser/login';
 import Register from './pages/pagesUser/register';
 import Home from './pages/pagesUser/home'
-import './app.css'
+import UserData from './pages/pagesUser/userData'
+
+
+import './App.css'
 
 function App() {
   return (
@@ -16,6 +19,7 @@ function App() {
         <Route path='/restaurants' element={<Restaurants />}></Route>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/register' element={<Register />}></Route>
+        <Route path='/userData' element={<UserData />}></Route>
       </Routes>
       </BrowserRouter>
     </div>
