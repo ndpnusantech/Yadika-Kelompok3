@@ -1,0 +1,44 @@
+.standar {
+    height: 100vh;
+    position: relative;
+}
+.standar h2 {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.hotel23{
+    width: 100%;
+    height: 100px;
+    filter: brightness(40%);
+}
+
+.standar-container{
+    margin-top: 30px;
+}
+
+.standar-container img{
+    width: 40%;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.standar1 {
+    margin-left: 52%;
+    margin-top: -28%;
+}
+.standar1 .trd{
+    width: 10px;
+}
+
+.standara {
+    background-color: greenyellow;
+    margin-left: 70%;
+    margin-top: 10px;
+    border-radius: 4px;
+    width: 100px;
+    border: none;
+}
+.standar-a{
+    color: black;
+}
