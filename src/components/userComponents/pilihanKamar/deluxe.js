@@ -5,11 +5,11 @@ import { AiOutlineWifi } from "react-icons/ai";
 const Deluxe = () => {
     return(
         <div className="deluxe">
-             <img src="./images/hotel1.jpg" className='hotel23' />
+             <img src="./images/hotel1.jpg" className='hotel231' />
                 <h2><FaBed /> Deluxe Room</h2>
-             <div className="standar-container">
+             <div className="deluxe-container">
             <img src="./images/kamar1.jpg" />
-            <table className='standar1'>
+            <table className='deluxe1'>
             <tr>
             <td><h3><b>What is in this room?</b></h3></td>
             </tr>
@@ -22,7 +22,7 @@ const Deluxe = () => {
                 <td><h4><b>Other Facilities</b></h4></td>
             </tr>
             <tr>
-                <td><AiOutlineWifi />Free Wifi</td>
+                <td><AiOutlineWifi /> Free Wifi</td>
             </tr>
             <tr>
                 <td><FaBed /> Free Wifi</td>
@@ -31,7 +31,7 @@ const Deluxe = () => {
                 <td><FaBed /> Free Wifi</td>
             </tr>
             </table>
-            <button className='standara'><a href="" className='standar-a'>Next</a></button>
+            <button className='button-deluxe'><a href="" className='a-deluxe'>Next</a></button>
              </div>
         </div>
     )
