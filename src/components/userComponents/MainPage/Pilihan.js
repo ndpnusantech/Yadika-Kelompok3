@@ -12,7 +12,7 @@ const Pilihan = () => {
                             <Card.Body>
                                 <Card.Title>{card.title}</Card.Title>
                                 <Card.Text>{card.text}</Card.Text>
-                                <Button variant="primary"><a href="">Lean More</a></Button>
+                                <Button variant="primary"><a href={card.ahref}>Lean More</a></Button>
                             </Card.Body>
                         </Card>
                     ))}
