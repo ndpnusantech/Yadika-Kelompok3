@@ -1,0 +1,44 @@
+.superior {
+    height: 100vh;
+    position: relative;
+}
+.superior h2 {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.img-superior{
+    width: 100%;
+    height: 100px;
+    filter: brightness(40%);
+}
+
+.superior-container{
+    margin-top: 30px;
+}
+
+.superior-container img{
+    width: 40%;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.superior1 {
+    margin-left: 52%;
+    margin-top: -28%;
+}
+.superior1 .trd{
+    width: 10px;
+}
+
+.button-superior {
+    background-color: greenyellow;
+    margin-left: 70%;
+    margin-top: 10px;
+    border-radius: 4px;
+    width: 100px;
+    border: none;
+}
+.a-superiors{
+    color: black;
+}
