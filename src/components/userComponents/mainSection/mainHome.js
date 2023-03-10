@@ -12,6 +12,9 @@ const MainHome = () => {
         <div className="preview-content">
         </div>
       </>
+      <>
+      <Collom />
+      </>
       <div className="judul">
         <h1 className="text-judul">All Kinds of Rooms</h1>
         <hr />
@@ -19,9 +22,6 @@ const MainHome = () => {
       <div className="Cardss">
         <Pilihan />
       </div>
-      <>
-      <Collom />
-      </>
     </div>
   )
 }

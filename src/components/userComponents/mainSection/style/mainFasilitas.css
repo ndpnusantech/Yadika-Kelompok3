@@ -15,8 +15,19 @@
 }
 
 .faci2 h1{
-    margin-left: 60px;
+    margin-left: 120%;
     margin-top: 30px;
+}
+
+.img-faci2{
+    display: flex;
+    flex-direction: column;
+    margin-left: -50px;
+    margin-top: -80px;
+}
+
+.img-faci2 img{
+    margin-bottom: 40px;
 }
 
 .in-faci1{
@@ -37,6 +48,8 @@
     /* background-color: white; */
     width: 80%;
     margin-top: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .split-faci{
