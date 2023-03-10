@@ -1,0 +1,51 @@
+.fac{
+    background-color: rgb(59, 1, 1);
+    width: 0px;
+    height: 25em;
+    padding: 15px;
+    padding-right: 600px;
+    margin-right: 80;
+}
+
+.fac1{
+    /* background-color: rgb(43, 131, 172); */
+    width: 50%;
+    height: 25em;
+    position: absolute;
+    margin-right: 43%;
+}
+
+.fac1 h1{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+/* .in-fac1{
+   /* background-color: white; */
+
+.fac1 h4{
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 85%;
+    padding: 10px;
+    /* background-color: white;
+    border-radius: 8px; */
+}
+
+.in-fac2{
+    /* background-color: white; */
+    width: 80%;
+    margin-top: 20px;
+}
+
+.split-faci2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 110px;
+}
+
+.fac img{
+    margin-top: 15px;
+    margin-left: 40px;
+    border-radius: 20px 0 0 20px;
+}

@@ -52,10 +52,9 @@ const Navbar = () => {
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/restaurants">Restaurant</a></li>
+                    <li><a href="/restaurants">facility</a></li>
                 </ul>
             </div>
     )
 }
-
 export default Navbar
