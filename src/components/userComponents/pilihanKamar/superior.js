@@ -31,7 +31,7 @@ const Superior = () => {
                 <td><FaBed /> Free Wifi</td>
             </tr>
             </table>
-            <button className='button-superior'><a href="" className='a-superior'>Next</a></button>
+            <button className='button-superior'><a href="./UserData" className='a-superior'>Next</a></button>
              </div>
         </div>
     )

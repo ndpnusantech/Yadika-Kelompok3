@@ -1,9 +1,10 @@
 .footer {
     border: 1px solid wheat;
-    background-color: wheat ;
+    background-color: #1D5A4A;
     opacity: 0.9;
     text-align: center;
     margin-top: 40px;
+    color: whitesmoke;
 }
 
 .footer1 {
@@ -11,7 +12,6 @@
     margin-left: 25px;
 }
 .footer1 :hover {
-    transform: scale(0.95);
     color: white;
 }
 
@@ -21,4 +21,8 @@
 }
 .footer .info {
     margin-top: 10px;
+}
+
+.cobab {
+    color: red;
 }

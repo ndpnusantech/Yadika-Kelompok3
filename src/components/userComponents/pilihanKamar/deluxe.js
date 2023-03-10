@@ -31,7 +31,7 @@ const Deluxe = () => {
                 <td><FaBed /> Free Wifi</td>
             </tr>
             </table>
-            <button className='button-deluxe'><a href="" className='a-deluxe'>Next</a></button>
+            <button className='button-deluxe'><a href="./UserData" className='a-deluxe'>Next</a></button>
              </div>
         </div>
     )
