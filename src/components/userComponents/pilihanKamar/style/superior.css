@@ -25,20 +25,23 @@
 
 .superior1 {
     margin-left: 52%;
-    margin-top: -28%;
+    margin-top: -25%;
 }
 .superior1 .trd{
     width: 10px;
 }
 
 .button-superior {
-    background-color: greenyellow;
+    background-color: green;
     margin-left: 70%;
     margin-top: 10px;
     border-radius: 4px;
     width: 100px;
     border: none;
 }
-.a-superiors{
-    color: black;
+.a-superior{
+    color: white;
+}
+.a-superior:hover{
+    color: white;
 }

@@ -9,6 +9,7 @@ import './App.css'
 import KamarStandar from './pages/pagesUser/kamarStandar';
 import KamarDeluxe from './pages/pagesUser/kamarDeluxe';
 import KamarSuperior from './pages/pagesUser/kamarSuperior';
+import './App.css'
 
 
 function App() {

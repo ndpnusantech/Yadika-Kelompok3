@@ -31,7 +31,7 @@ const Standar = () => {
                 <td><FaBed /> Free Wifi</td>
             </tr>
             </table>
-            <button className='standara'><a href="" className='standar-a'>Next</a></button>
+            <button className='standara'><a href="./UserData" className='standar-a'>Next</a></button>
              </div>
         </div>
     )
