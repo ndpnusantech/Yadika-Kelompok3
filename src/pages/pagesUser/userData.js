@@ -6,7 +6,7 @@ const UserData = () => {
     return(
         <div className="abo">
             <Navbar />
-            <DataDiri />
+            <DataDiri /><br /><br /><br /><br /><br />
             <Footer />
         </div>
     )

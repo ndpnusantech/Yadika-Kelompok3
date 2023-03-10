@@ -5,6 +5,7 @@ import Login from './pages/pagesUser/login';
 import Register from './pages/pagesUser/register';
 import Home from './pages/pagesUser/home'
 import UserData from './pages/pagesUser/userData'
+import UserBooking from './pages/pagesUser/userBooking';
 import './App.css'
 import KamarStandar from './pages/pagesUser/kamarStandar';
 import KamarDeluxe from './pages/pagesUser/kamarDeluxe';
@@ -22,6 +23,7 @@ function App() {
         <Route path='/login' element={<Login />}></Route>
         <Route path='/register' element={<Register />}></Route>
         <Route path='/userData' element={<UserData />}></Route>
+        <Route path='/userBooking' element={<UserBooking />}></Route>
         <Route path='/kamarStandar' element={<KamarStandar />}></Route>
         <Route path='/kamarDeluxe' element={<KamarDeluxe />}></Route>
         <Route path='/kamarSuperior' element={<KamarSuperior />}></Route>

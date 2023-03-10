@@ -23,6 +23,12 @@ const dataPembuat = [
         title:'Ketua',
         text: 'Almustofa fadhil'
     },
+    {
+        id: 3,
+        image:'./images/kamar1',
+        title:'RP.200.000',
+        text: 'Memiliki fasilitas kamar yang terbaik'
+    },
 ]
 
 export default dataPembuat
