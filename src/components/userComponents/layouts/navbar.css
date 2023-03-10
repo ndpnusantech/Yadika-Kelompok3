@@ -6,15 +6,14 @@
 /* background-color: #D48166; */
 .navbar {
     position: fixed;
-    top: 10px;
     left: 0;
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid rgba(184, 184, 184, 0.5);
     background-color: rgba(100, 97, 97, 0.5);
     /* set opacity pada background */
     color: #000;
-    /* warna teks pada navbar */
+    border-radius: 5px;
     z-index: 999;
     transition: top 0.3s ease-in-out;
 
@@ -29,6 +28,7 @@
 .navbar h2 {
     position: absolute;
     margin-left: 55px;
+    margin-top: 7px;
     font-size: 30px;
 }
 

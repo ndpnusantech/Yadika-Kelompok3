@@ -4,12 +4,12 @@ import { AiOutlineWifi } from "react-icons/ai";
 
 const Superior = () => {
     return(
-        <div className="deluxe">
-             <img src="./images/hotel1.jpg" className='hotel23' />
+        <div className="superior">
+             <img src="./images/hotel1.jpg" className='img-superior' />
                 <h2><FaBed /> Superior Room</h2>
-             <div className="standar-container">
+             <div className="superior-container">
             <img src="./images/kamar1.jpg" />
-            <table className='standar1'>
+            <table className='superior1'>
             <tr>
             <td><h3><b>What is in this room?</b></h3></td>
             </tr>
@@ -31,7 +31,7 @@ const Superior = () => {
                 <td><FaBed /> Free Wifi</td>
             </tr>
             </table>
-            <button className='standara'><a href="" className='standar-a'>Next</a></button>
+            <button className='button-superior'><a href="./UserData" className='a-superior'>Next</a></button>
              </div>
         </div>
     )
