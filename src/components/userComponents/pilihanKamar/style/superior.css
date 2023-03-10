@@ -1,44 +1,47 @@
-.standar {
+.superior {
     height: 100vh;
     position: relative;
 }
-.standar h2 {
+.superior h2 {
     margin-top: 30px;
     margin-left: 50px;
 }
 
-.hotel23{
+.img-superior{
     width: 100%;
     height: 100px;
     filter: brightness(40%);
 }
 
-.standar-container{
+.superior-container{
     margin-top: 30px;
 }
 
-.standar-container img{
+.superior-container img{
     width: 40%;
     margin-left: 100px;
     border-radius: 20px;
 }
 
-.standar1 {
+.superior1 {
     margin-left: 52%;
-    margin-top: -28%;
+    margin-top: -25%;
 }
-.standar1 .trd{
+.superior1 .trd{
     width: 10px;
 }
 
-.standara {
-    background-color: greenyellow;
+.button-superior {
+    background-color: green;
     margin-left: 70%;
     margin-top: 10px;
     border-radius: 4px;
     width: 100px;
     border: none;
 }
-.standar-a{
-    color: black;
+.a-superior{
+    color: white;
+}
+.a-superior:hover{
+    color: white;
 }
