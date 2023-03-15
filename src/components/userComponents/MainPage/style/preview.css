@@ -1,14 +1,11 @@
   .carousel-item .text {
     flex: 1;
     padding: 0 0;
-    /* text-align: right; */
     position: absolute;
     top: 65%;
     left: 10%;
     color: white;
     font-size: 150%;
-  /* transform: translate(-50%, -50%); */
-    /* position: absolute; */
   } 
 
   .des1{

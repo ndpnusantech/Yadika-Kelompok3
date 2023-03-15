@@ -14,6 +14,7 @@ const MainAbout = () => {
                 </div>
                 <div className='judulText0'>
                 <h2>Our Staf</h2>
+                <hr />
                 </div>
                 <div className='about-bootsrap'>
                     {dataPembuat.map((card1) => (
