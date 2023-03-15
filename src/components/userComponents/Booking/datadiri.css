@@ -1,13 +1,14 @@
 .datadiri{
     margin-top: 100px;
     width: 25rem;
-<<<<<<< HEAD
     margin-left: 200px;
 }
 .hotel{
     margin-left: 900px;
     margin-top: -550px;
-=======
-    margin-left: 40%;
->>>>>>> eac8be927760404ac8fade4501a122309ba7b821
+}
+.hotel231{
+    width: 100%;
+    height: 100px;
+    filter: brightness(40%);
 }

@@ -8,6 +8,7 @@ import "./datadiri.css"
 const DataDiri =() => {
     return(
         <div className='awal'>
+          <img src="./images/hotel1.jpg" className='hotel231' />
           <div className='datadiri'>
           <Form.Group className="mb-3" controlId="formGridAddress1">
           <Form.Label>Nama Lengkap</Form.Label>

@@ -4,11 +4,8 @@ import Login from './pages/pagesUser/login';
 import Register from './pages/pagesUser/register';
 import Home from './pages/pagesUser/home'
 import UserData from './pages/pagesUser/userData'
-<<<<<<< HEAD
 import UserBooking from './pages/pagesUser/userBooking';
 import './App.css'
-=======
->>>>>>> eac8be927760404ac8fade4501a122309ba7b821
 import KamarStandar from './pages/pagesUser/kamarStandar';
 import KamarDeluxe from './pages/pagesUser/kamarDeluxe';
 import KamarSuperior from './pages/pagesUser/kamarSuperior';
