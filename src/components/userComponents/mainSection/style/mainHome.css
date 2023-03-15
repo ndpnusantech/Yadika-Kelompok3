@@ -6,7 +6,8 @@ body{
     margin-top: 100px;
 }
 .text-judul{
-    font-size: 35px;
+    font-size: 45px;
+    font-family: 'Merriweather';
 }
 .judul hr {
     width: 40%;

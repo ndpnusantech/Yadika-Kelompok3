@@ -11,8 +11,27 @@
     margin: 0 1rem 1rem 1rem;
     transition: 0.4s ease-in-out;
     cursor: pointer;
+    transition: all .8s;
 }
 
 .card:hover {
     transform: translateY(-10px);
+}
+
+.button-pilihan{
+    transition: all .8s;
+}
+
+.button-pilihan:hover{
+    color: white;
+    background-color: rgb(36, 36, 248);
+    transform: scale(0.95);
+}
+
+.a-pilhan{
+    transition: all .8s;
+}
+.a-pilhan:hover{
+    color: gainsboro;
+    transform: scale(0.95);
 }

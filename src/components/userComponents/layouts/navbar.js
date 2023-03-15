@@ -47,15 +47,14 @@ import './navbar.css'
 const Navbar = () => {
     return (
             <div className='navbar'>
-                <img src="./images/logo.png" className='navbarimg' alt="" width={40} />
+                <img src="./images/logo.png" className='navbarimg' alt="" width={42} height={45} />
                 <h2>ooheng</h2>
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/restaurants">Restaurant</a></li>
+                    <li><a href="/facility">Facility</a></li>
                 </ul>
             </div>
     )
 }
-
 export default Navbar

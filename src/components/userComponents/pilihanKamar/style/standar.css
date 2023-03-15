@@ -25,14 +25,14 @@
 
 .standar1 {
     margin-left: 52%;
-    margin-top: -28%;
+    margin-top: -25%;
 }
 .standar1 .trd{
     width: 10px;
 }
 
 .standara {
-    background-color: greenyellow;
+    background-color: green;
     margin-left: 70%;
     margin-top: 10px;
     border-radius: 4px;
@@ -40,5 +40,8 @@
     border: none;
 }
 .standar-a{
-    color: black;
+    color: white;
+}
+.standar-a:hover{
+    color: white;
 }
