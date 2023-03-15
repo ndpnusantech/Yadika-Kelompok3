@@ -1,7 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import kamar from '../data/data';
-// import data from './data/data2';
-// import content from './data/dataDesc';
+import kamar from '../data/dataSlide';
 import './style/preview.css'
 
 const Slide = () => {

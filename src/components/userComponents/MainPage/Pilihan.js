@@ -1,7 +1,7 @@
 import './style/pilihan.css'
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
-import data from '../data/data2';
+import data from '../data/dataPilihan';
 
 const Pilihan = () => {
     return (
@@ -12,7 +12,7 @@ const Pilihan = () => {
                             <Card.Body>
                                 <Card.Title>{card.title}</Card.Title>
                                 <Card.Text>{card.text}</Card.Text>
-                                <Button variant="primary"><a href={card.ahref}>Lean More</a></Button>
+                                <Button variant="primary" className='button-pilihan'><a href={card.ahref} className='a-pilhan'>Lean More</a></Button>
                             </Card.Body>
                         </Card>
                     ))}

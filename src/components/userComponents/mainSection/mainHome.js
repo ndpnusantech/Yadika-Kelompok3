@@ -1,5 +1,4 @@
 import Collom from "../MainPage/collom";
-// import Desc from "./MainPage/desc";
 import Pilihan from "../MainPage/Pilihan";
 import Slide from "../MainPage/preview"
 import "./style/mainHome.css"
@@ -17,7 +16,7 @@ const MainHome = () => {
       </>
       <div className="judul">
         <h1 className="text-judul">All Kinds of Rooms</h1>
-        <hr />
+        <hr className="hr-mh"/>
       </div>
       <div className="Cardss">
         <Pilihan />

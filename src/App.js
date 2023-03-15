@@ -1,6 +1,5 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import About from './pages/pagesUser/about'
-import Restaurants from './pages/pagesUser/restaurants'
 import Login from './pages/pagesUser/login';
 import Register from './pages/pagesUser/register';
 import Home from './pages/pagesUser/home'
@@ -10,6 +9,10 @@ import KamarDeluxe from './pages/pagesUser/kamarDeluxe';
 import KamarSuperior from './pages/pagesUser/kamarSuperior';
 import Admin from './pages/pagesAdmin/admin';
 import './App.css'
+import Facility from './pages/pagesUser/facilitas';
+import VDeluxe from './pages/pagesUser/vDeluxe';
+import VStandar from './pages/pagesUser/vStandar';
+import VSuperior from './pages/pagesUser/vSuperior';
 
 
 function App() {
@@ -19,7 +22,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/about' element={<About />}></Route>
-        <Route path='/restaurants' element={<Restaurants />}></Route>
+        <Route path='/facility' element={<Facility />}></Route>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/register' element={<Register />}></Route>
         <Route path='/userData' element={<UserData />}></Route>
@@ -27,7 +30,9 @@ function App() {
         <Route path='/kamarDeluxe' element={<KamarDeluxe />}></Route>
         <Route path='/kamarSuperior' element={<KamarSuperior />}></Route>
         <Route path='/admin' element={<Admin />}></Route>
-
+        <Route path='/viewDeluxe' element={<VDeluxe />}></Route>
+        <Route path='/viewStandar' element={<VStandar />}></Route>
+        <Route path='/viewSuperior' element={<VSuperior />}></Route>
       </Routes>
       </BrowserRouter>
     </div>
