@@ -5,7 +5,6 @@ import { AiOutlineWifi } from "react-icons/ai";
 const Deluxe = () => {
     return(
         <div className="deluxe">
-             <img src="./images/hotel1.jpg" className='hotel231' />
                 <h2><FaBed /> Deluxe Room</h2>
              <div className="deluxe-container">
             <img src="./images/kamar1.jpg" />

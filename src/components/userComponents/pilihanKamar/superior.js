@@ -5,7 +5,6 @@ import { AiOutlineWifi } from "react-icons/ai";
 const Superior = () => {
     return(
         <div className="superior">
-             <img src="./images/hotel1.jpg" className='img-superior' />
                 <h2><FaBed /> Superior Room</h2>
              <div className="superior-container">
             <img src="./images/kamar1.jpg" />
