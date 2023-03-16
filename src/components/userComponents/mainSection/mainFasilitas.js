@@ -3,7 +3,6 @@ import "./style/mainFasilitas.css"
 const MainFasilitas = () => {
     return(
         <div className="container-faci">
-            <img src="./images/hotel1.jpg" className='hotel2' />
             <div className="split-faci">
             <div className="faci">
                 <img src=".\images\spa.jpg" width={450} />
