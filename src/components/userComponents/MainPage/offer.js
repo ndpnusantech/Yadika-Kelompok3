@@ -10,16 +10,15 @@ const Penawaran = () => {
         <h3>
             Offering
         </h3><br />
-        <p>Kooheng make a offering for you</p>
+        {/* <p>Kooheng make a offering for you</p> */}
         </div>
         <div className="offer-card">
                     {Special.map((card) => (
-                        <Card key={card.id} style={{ width: '18rem' }}>
+                        <Card key={card.id} style={{ width: '18rem' ,}}>
                             <Card.Img variant="top" src={card.image} />
-                            <Card.Body>
+                            <Card.Body style={{ height: '150px'}}>
                                 <Card.Title>{card.title}</Card.Title>
                                 <Card.Text>{card.text}</Card.Text>
-                                <hr />  
                                 <Card.Text>{card.content}</Card.Text>
                                 <Button variant="primary"><a href={card.ahref}>Lean More</a></Button>
                             </Card.Body>

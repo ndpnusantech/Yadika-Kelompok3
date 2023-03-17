@@ -4,11 +4,11 @@ import dataPembuat from '../data/dataPembuat';
 const MainAbout = () => {
     return (
         <>
-            <div className="about">
+            {/* <div className="about">
                 <div className="about-img">
                     <div className="about-text">
-                            <h3>About Kooheng</h3>
-                            <h5>Mencoba melayani dengan sepenuh hati dan semaksimal mungkin</h5>
+                        <h3>About Kooheng</h3>
+                        <h5>Mencoba melayani dengan sepenuh hati dan semaksimal mungkin</h5>
                     </div>
                 </div>
                 <div className='judulText0'>
@@ -26,7 +26,7 @@ const MainAbout = () => {
                         </Card>
                     ))}
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

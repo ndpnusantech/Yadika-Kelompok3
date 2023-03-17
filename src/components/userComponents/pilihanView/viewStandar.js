@@ -9,8 +9,12 @@ const ViewStandar = () => {
     <h1>Disini kami menyediakan 2 views yang bagus dan cukup menarik untuk dilihat</h1>
     <br />
     <div className="view-standarImg">
+        <div className="pantai">
         <a href="./kamarStandar"><img src="./images/Pantai.webp"/></a>
+        </div>
+        <div className="kota">
         <a href="./kamarStandar"><img src="./images/kota.jpg"/></a>
+        </div>
     </div>
     </div>
     )

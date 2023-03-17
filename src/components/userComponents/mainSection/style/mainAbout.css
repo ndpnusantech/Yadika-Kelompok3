@@ -8,10 +8,10 @@
     top: 17%;
     color: white;
 }
-.about-img h5{
+.about-text h5{
     text-align: center;
     position: absolute;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-left: 140px;
     color: white;
 }
@@ -28,7 +28,7 @@
 
 .about-text h3 {
     z-index: 1;
-    margin-top: -15px;
+    margin-top: -125px;
     color: white;
     font-size: 40px;
     font-family: 'Merriweather';
