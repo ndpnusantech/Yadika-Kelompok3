@@ -1,31 +1,26 @@
 import './style/mainAbout.css'
-import Card from 'react-bootstrap/Card';
-import dataPembuat from '../data/dataPembuat';
+import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
+
 const MainAbout = () => {
     return (
         <>
-            <div className="about">
-                <div className="about-img">
-                    <div className="about-text">
-                            <h3>About Kooheng</h3>
-                            <h5>Mencoba melayani dengan sepenuh hati dan semaksimal mungkin</h5>
-                    </div>
-                </div>
-                <div className='judulText0'>
-                <h2>Our Staf</h2>
-                <hr />
-                </div>
-                <div className='about-bootsrap'>
-                    {dataPembuat.map((card1) => (
-                        <Card key={card1.id} style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={card1.image} />
-                            <Card.Body>
-                                <Card.Title>{card1.title}</Card.Title>
-                                <Card.Text>{card1.text}</Card.Text>
-                            </Card.Body>
-                        </Card>
-                    ))}
-                </div>
+            <div className="contact">
+                <img src="./images/hotel1.jpg" alt="" />
+            </div>
+            <div className="bebas">
+                <Form.Group className="mb-3" controlId="formGridAddress1">
+                    <Form.Label>Nama Lengkap</Form.Label>
+                    <Form.Control placeholder="Masukan Nama Lengkap" />
+                </Form.Group>
+                <Form.Group as={Col} controlId="formGridZip">
+                    <Form.Label>No.HP</Form.Label>
+                    <Form.Control />
+                </Form.Group>
+                <Form.Group as={Col} controlId="formGridEmail">
+                    <Form.Label>Email</Form.Label>
+                    <Form.Control type="email" placeholder="Enter email" />
+                </Form.Group>
             </div>
         </>
     )
