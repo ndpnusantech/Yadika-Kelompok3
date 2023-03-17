@@ -1,0 +1,16 @@
+.view-superior{
+    text-align: center;
+}
+.view-superior h1{
+    font-size: 20px;
+}
+
+.view-superiorImg{
+    display: flex;
+}
+
+.view-superiorImg img{
+    border-radius: 20px;
+    width: 70%;
+    height: 80%;
+}
