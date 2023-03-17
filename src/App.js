@@ -10,6 +10,7 @@ import KamarStandar from './pages/pagesUser/kamarStandar';
 import KamarDeluxe from './pages/pagesUser/kamarDeluxe';
 import KamarSuperior from './pages/pagesUser/kamarSuperior';
 import './App.css'
+import View from './pages/pagesUser/roomSection';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path='/kamarStandar' element={<KamarStandar />}></Route>
         <Route path='/kamarDeluxe' element={<KamarDeluxe />}></Route>
         <Route path='/kamarSuperior' element={<KamarSuperior />}></Route>
+        <Route path='/kamarSection' element={<View />}></Route>
 
       </Routes>
       </BrowserRouter>

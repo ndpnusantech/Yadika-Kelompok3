@@ -11,8 +11,6 @@ const Restaurants = () => {
             {/* <MainRestaurants /> */}
             <MainFasilitas />
             <MainFasilitas2 />
-            {/* <MainFasilitas />
-            <MainFasilitas2 /> */}
             <Footer />
         </div>
     )

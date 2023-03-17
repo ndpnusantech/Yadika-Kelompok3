@@ -35,6 +35,12 @@
    width: 23%;
 }
 
+.hotel2 {
+    width: 100%;
+    height: 100px;
+    filter: brightness(40%);
+}
+
 .faci2 h4{
     margin-left: 60px;
     margin-top: 20px;

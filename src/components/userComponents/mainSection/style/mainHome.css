@@ -14,3 +14,12 @@ body{
     background-color: rgb(0, 0, 0);
     margin-left: 30%;
 }
+.but-more button{
+    background-color: transparent;
+    color: bisque;
+    background-color: #1D5A4A;
+    width: 160px;
+    height: 40px;
+    border-color: rgb(255, 0, 149);
+    border-radius: 6px;
+}

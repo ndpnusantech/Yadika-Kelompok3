@@ -5,6 +5,7 @@ import DataDiri from "../../components/userComponents/Booking/dataDiri"
 const UserData = () => {
     return(
         <div className="abo">
+            <Navbar />
             <DataDiri />
             <Footer />
         </div>
