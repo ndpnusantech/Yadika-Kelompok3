@@ -3,7 +3,7 @@ import { Card, Button } from 'react-bootstrap';
 import Special from '../data/data-offer';
 import './style/offer.css'
 
-const Offering = () => {
+const Penawaran = () => {
     return(
         <center>
             <div className="offer-text">
@@ -30,4 +30,4 @@ const Offering = () => {
     )
 }
 
-export default Offering
+export default Penawaran

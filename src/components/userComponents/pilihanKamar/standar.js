@@ -5,7 +5,6 @@ import { AiOutlineWifi } from "react-icons/ai";
 const Standar = () => {
     return(
         <div className="standar">
-             <img src="./images/hotel1.jpg" className='hotel23' />
                 <h2><FaBed /> Standar Room</h2>
              <div className="standar-container">
             <img src="./images/kamar1.jpg" />

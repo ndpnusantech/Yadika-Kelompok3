@@ -1,7 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import kamar from '../data/data';
-// import data from './data/data2';
-// import content from './data/dataDesc';
+import kamar from '../data/dataSlide';
 import './style/preview.css'
 
 const Slide = () => {
@@ -27,7 +25,6 @@ const Slide = () => {
                 <p className='des1'>Deluxe room</p>
                 <div className="des2">
                 <p>Ruangan ini diisi dengan double bed</p>
-                <button>Test</button>
                 </div>
                 </div>
             </Carousel.Item>

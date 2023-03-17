@@ -2,12 +2,6 @@
     position: relative;
 }
 
-.hotel2 {
-    width: 100%;
-    height: 80vh;
-    filter: brightness(60%);
-}
-
 .about-img h3{
     margin-left: 26%;
     position: absolute;
@@ -33,12 +27,26 @@
 }
 
 .about-text h3 {
-    margin-top: 27%;
+    z-index: 1;
+    margin-top: -15px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Merriweather';
 }
 
 .judulText0 {
     text-align: center;
     margin-top: 100px;
+}
+.judulText0 h2{
+    font-size: 40px;
+    font-family: 'Merriweather';
+}
+.judulText0 hr{
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .about-img hr {
     height: 5px;

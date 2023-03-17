@@ -6,7 +6,6 @@ const MainAbout = () => {
         <>
             <div className="about">
                 <div className="about-img">
-                    <img src="./images/hotel1.jpg" className='hotel2' />
                     <div className="about-text">
                             <h3>About Kooheng</h3>
                             <h5>Mencoba melayani dengan sepenuh hati dan semaksimal mungkin</h5>
@@ -14,6 +13,7 @@ const MainAbout = () => {
                 </div>
                 <div className='judulText0'>
                 <h2>Our Staf</h2>
+                <hr />
                 </div>
                 <div className='about-bootsrap'>
                     {dataPembuat.map((card1) => (

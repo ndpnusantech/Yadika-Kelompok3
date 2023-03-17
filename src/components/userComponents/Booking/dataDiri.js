@@ -2,12 +2,15 @@ import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
+import Card from 'react-bootstrap/Card';
+import Image from "../img/kamar.jpeg"
 import "./datadiri.css"
-
 const DataDiri =() => {
     return(
-        <div className='datadiri'>
-        <Form.Group className="mb-3" controlId="formGridAddress1">
+        <div className='awal'>
+          <img src="./images/hotel1.jpg" className='hotel231' />
+          <div className='datadiri'>
+          <Form.Group className="mb-3" controlId="formGridAddress1">
           <Form.Label>Nama Lengkap</Form.Label>
           <Form.Control placeholder="Masukan Nama Lengkap" />
         </Form.Group>
@@ -48,12 +51,16 @@ const DataDiri =() => {
               <option>Check out...</option>
             </Form.Select>
           </Form.Group>
-  
           <Form.Group as={Col} controlId="formGridZip">
             <Form.Label>No.HP</Form.Label>
             <Form.Control />
           </Form.Group>
         </Row>
+        
+        <Form.Group className="mb-3" controlId="formGridAddress1">
+          <Form.Label>Permintaan Khusus</Form.Label>
+          <Form.Control placeholder="Permintaan khusus anda" />
+        </Form.Group>
   
         <Form.Group className="mb-3" id="formGridCheckbox">
           <Form.Check type="checkbox" label="Check me out" />
@@ -63,7 +70,23 @@ const DataDiri =() => {
           Submit
         </Button>
       </Form>
+          </div>
+
+      <div className='hotel'>
+      <Card style={{ width: '25rem' }}>
+      <Card.Img src={Image}/>
+      <Card.Body>
+        <Card.Title>RP.200.000</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">PESAN</Button>
+      </Card.Body>
+    </Card>
         </div>
+        </div>
+       
     )
 }
 export default DataDiri
