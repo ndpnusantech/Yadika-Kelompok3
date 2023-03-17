@@ -8,16 +8,19 @@
     left: 0;
     width: 100%;
     padding: 10px;
-    border: 1px solid rgba(184, 184, 184, 0.5);
-    background-color: rgba(100, 97, 97, 0.5);
+    background-color: #1D5A4A;
+    opacity: 0.9;
     color: #000;
     border-radius: 2px;
     z-index: 999;
     transition: top 0.3s ease-in-out;
+    color: white;
 }
 
 .navbarimg {
-    margin-left: 15px;
+    margin-left: 12px;
+    background-color: white;
+    border-radius: 50px;
     position: absolute;
 }
 
