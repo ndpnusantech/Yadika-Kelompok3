@@ -8,17 +8,21 @@ import "./datadiri.css"
 const DataDiri =() => {
     return(
         <div className='awal'>
-          <img src="./images/hotel1.jpg" className='hotel231' />
+          <center>
+            <h2>Standar room</h2>
+          </center>
+          {/* <img src="./images/hotel1.jpg" className='hotel231' /> */}
           <div className='datadiri'>
+            <h2>Mengisi data diri</h2><br />
           <Form.Group className="mb-3" controlId="formGridAddress1">
           <Form.Label>Nama Lengkap</Form.Label>
           <Form.Control placeholder="Masukan Nama Lengkap" />
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formGridAddress1">
+        {/* <Form.Group className="mb-3" controlId="formGridAddress1">
           <Form.Label>Tempat/Tanggal Lahir</Form.Label>
           <Form.Control placeholder="Masukan Tempat/Tanggal Lahir" />
-        </Form.Group>
+        </Form.Group> */}
 
         <Form>
         <Row className="mb-3">
@@ -39,13 +43,13 @@ const DataDiri =() => {
         </Form.Group>
  
         <Row className="mb-3">
-          <Form.Group as={Col} controlId="formGridCity">
+          {/* <Form.Group as={Col} controlId="formGridCity">
             <Form.Label>Kamar.no</Form.Label>
             <Form.Control />
-          </Form.Group>
+          </Form.Group> */}
   
           <Form.Group as={Col} controlId="formGridState">
-            <Form.Label>Status</Form.Label>
+            <Form.Label>Check in - Check Out</Form.Label>
             <Form.Select defaultValue="Choose...">
               <option>Check in</option>
               <option>Check out...</option>
@@ -76,12 +80,15 @@ const DataDiri =() => {
       <Card style={{ width: '25rem' }}>
       <Card.Img src={Image}/>
       <Card.Body>
+        <Card.Title>Standar Room</Card.Title>
+        <hr />
         <Card.Title>RP.200.000</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Standard Room merupakan kelas kamar terbawah dan hanya memiliki fasilitas yang terbatas, seperti tempat tidur, AC, TV, perlengkapan mandi, dan air minum 
         </Card.Text>
-        <Button variant="primary">PESAN</Button>
+        <hr />
+        <Card.Title>Untuk Pembayaran DP minimal 30% Dari harga</Card.Title>
+        {/* <Button variant="primary">PESAN</Button> */}
       </Card.Body>
     </Card>
         </div>

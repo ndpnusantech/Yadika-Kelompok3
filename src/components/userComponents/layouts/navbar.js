@@ -51,7 +51,7 @@ const Navbar = () => {
                 <h2>ooheng</h2>
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/about">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li><a href="/facility">Facility</a></li>
                 </ul>
             </div>
