@@ -61,10 +61,19 @@ const DataDiri =() => {
           </Form.Group>
         </Row>
         
-        <Form.Group className="mb-3" controlId="formGridAddress1">
+        <Form.Group className="mb-3" controlId="formGridAddress1" height="100px">
           <Form.Label>Permintaan Khusus</Form.Label>
           <Form.Control placeholder="Permintaan khusus anda" />
         </Form.Group>
+        <Form.Group as={Col} controlId="formGridState">
+            <Form.Label>Metode Pembayaran</Form.Label>
+            <Form.Select defaultValue="Choose...">
+              <option>Ditempat</option>
+              <option>Transfer</option>
+              <option>Cartu credit</option>
+            </Form.Select>
+          </Form.Group>
+
   
         <Form.Group className="mb-3" id="formGridCheckbox">
           <Form.Check type="checkbox" label="Check me out" />
