@@ -7,7 +7,7 @@ import "./style/mainHome.css"
 
 const MainHome = () => {
   return (
-    <div>
+    <div className="mainHome">
       <>
         <Slide />
         <div className="preview-content">

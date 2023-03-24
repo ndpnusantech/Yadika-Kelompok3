@@ -11,9 +11,11 @@ const ViewStandar = () => {
     <div className="view-standarImg">
         <div className="pantai">
         <a href="./kamarStandar"><img src="./images/Pantai.webp"/></a>
+        <h2>Pantai</h2>
         </div>
         <div className="kota">
         <a href="./kamarStandar"><img src="./images/kota.jpg"/></a>
+        <h2>Kota</h2>
         </div>
     </div>
     </div>
