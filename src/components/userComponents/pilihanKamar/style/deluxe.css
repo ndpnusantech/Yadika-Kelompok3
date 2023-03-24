@@ -11,7 +11,7 @@
     margin-top: 30px;
 }
 
-.deluxe-container img{
+.gambar-deluxe img{
     width: 40%;
     margin-left: 100px;
     border-radius: 20px;
@@ -35,4 +35,8 @@
 }
 .a-deluxe{
     color: black;
+}
+
+.deluxe-pantai img{
+    border-radius: 10px;
 }

@@ -10,11 +10,13 @@ import KamarStandar from './pages/pagesUser/kamarStandar';
 import KamarDeluxe from './pages/pagesUser/kamarDeluxe';
 import KamarSuperior from './pages/pagesUser/kamarSuperior';
 import Admin from './pages/pagesAdmin/admin';
-import './App.css'
+import './App.css'  
 import Facility from './pages/pagesUser/facilitas';
-import VDeluxe from './pages/pagesUser/vDeluxe';
-import VStandar from './pages/pagesUser/vStandar';
-import VSuperior from './pages/pagesUser/vSuperior';
+import KamarCenter from './components/userComponents/pilihanKamar/kamarCenter';
+
+// import VDeluxe from './pages/pagesUser/vDeluxe';
+// import VStandar from './pages/pagesUser/vStandar';
+// import VSuperior from './pages/pagesUser/vSuperior';
 
 
 function App() {
@@ -33,9 +35,10 @@ function App() {
         <Route path='/kamarDeluxe' element={<KamarDeluxe />}></Route>
         <Route path='/kamarSuperior' element={<KamarSuperior />}></Route>
         <Route path='/admin' element={<Admin />}></Route>
-        <Route path='/viewDeluxe' element={<VDeluxe />}></Route>
+        <Route path='/KamarCenter' element={<KamarCenter />}></Route>
+        {/* <Route path='/viewDeluxe' element={<VDeluxe />}></Route>
         <Route path='/viewStandar' element={<VStandar />}></Route>
-        <Route path='/viewSuperior' element={<VSuperior />}></Route>
+        <Route path='/viewSuperior' element={<VSuperior />}></Route> */}
       </Routes>
       </BrowserRouter>
     </div>
