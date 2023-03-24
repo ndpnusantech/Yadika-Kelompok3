@@ -29,7 +29,7 @@ const MainHome = () => {
       </div>
       <div className="but-more">
         <center>
-      <button>See more</button>
+      <a href="/KamarCenter"><button>See more</button></a>
       </center>
       </div>
     </div>
