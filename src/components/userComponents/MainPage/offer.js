@@ -20,7 +20,7 @@ const Penawaran = () => {
                                 <Card.Title>{card.title}</Card.Title>
                                 <Card.Text>{card.text}</Card.Text>
                                 <Card.Text>{card.content}</Card.Text>
-                                <Button variant="primary"><a href={card.ahref}>Lean More</a></Button>
+                                <Button variant="primary"><a href={card.ahref}>Learn More</a></Button>
                             </Card.Body>
                         </Card>
                     ))}
