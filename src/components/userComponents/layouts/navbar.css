@@ -33,14 +33,10 @@
 }
 
 ul {
-    margin-left: 65%;
+    margin-left: 73%;
     margin-top: 10px;
     display: flex;
     gap: 50px;
-}
-
-li {
-    list-style: none;
 }
 
 a {
