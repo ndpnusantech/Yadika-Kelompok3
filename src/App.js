@@ -11,11 +11,12 @@ import KamarSuperior from './pages/pagesUser/kamarSuperior';
 import Admin from './pages/pagesAdmin/admin';
 import './App.css'  
 import Facility from './pages/pagesUser/facilitas';
-import VDeluxe from './pages/pagesUser/vDeluxe';
-import VStandar from './pages/pagesUser/vStandar';
-import VSuperior from './pages/pagesUser/vSuperior';
+// import VDeluxe from './pages/pagesUser/vDeluxe';
+// import VStandar from './pages/pagesUser/vStandar';
+// import VSuperior from './pages/pagesUser/vSuperior';
 import Contact from './pages/pagesUser/contact';
 import KamarCenter from './components/userComponents/pilihanKamar/kamarCenter';
+import Kamar from './pages/pagesAdmin/kamar';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path='/kamarSuperior' element={<KamarSuperior />}></Route>
         <Route path='/admin' element={<Admin />}></Route>
         <Route path='/KamarCenter' element={<KamarCenter />}></Route>
+        <Route path='/adminKamar' element={<Kamar />}></Route>
         {/* <Route path='/viewDeluxe' element={<VDeluxe />}></Route>
         <Route path='/viewStandar' element={<VStandar />}></Route>
         <Route path='/viewSuperior' element={<VSuperior />}></Route> */}

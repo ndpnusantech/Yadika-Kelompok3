@@ -39,10 +39,6 @@ ul {
     gap: 50px;
 }
 
-li {
-    list-style: none;
-}
-
 a {
     font-size: 18px;
     color: white;
