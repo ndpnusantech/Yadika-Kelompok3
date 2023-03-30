@@ -49,7 +49,11 @@ const Navbar = () => {
             <div className='navbar'>
                 <img src="./images/logo.png" className='navbarimg' alt="" width={42} height={45} />
                 <h2>ooheng</h2>
+<<<<<<< HEAD
                 <ul style={{listStyle:'none'}}>
+=======
+                <ul style={{listStyle : 'none'}}>
+>>>>>>> b7a619fe89793329b9c05680ffd408220b1aa3c7
                     <li><a href="/">Home</a></li>
                     <li><a href="/contact">Contact</a></li>
                     <li><a href="/facility">Facility</a></li>

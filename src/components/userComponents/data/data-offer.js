@@ -11,7 +11,7 @@ const  Special = [
       title: 'Valentine Day',
       content: 'Pellentesque habitant morbi .',
       image: './images/valentine.jpg',
-      ahref : './kamarSuperior'
+      ahref : './valentineoffering'
     },
   ];
 

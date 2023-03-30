@@ -16,7 +16,11 @@ import Facility from './pages/pagesUser/facilitas';
 // import VSuperior from './pages/pagesUser/vSuperior';
 import Contact from './pages/pagesUser/contact';
 import KamarCenter from './components/userComponents/pilihanKamar/kamarCenter';
+<<<<<<< HEAD
 import Kamar from './pages/pagesAdmin/kamar';
+=======
+import Valentineoffering from './components/descOffering/valentineOffering';
+>>>>>>> b7a619fe89793329b9c05680ffd408220b1aa3c7
 
 
 function App() {
@@ -36,7 +40,11 @@ function App() {
         <Route path='/kamarSuperior' element={<KamarSuperior />}></Route>
         <Route path='/admin' element={<Admin />}></Route>
         <Route path='/KamarCenter' element={<KamarCenter />}></Route>
+<<<<<<< HEAD
         <Route path='/adminKamar' element={<Kamar />}></Route>
+=======
+        <Route path='/valentineoffering' element={<Valentineoffering />}></Route>
+>>>>>>> b7a619fe89793329b9c05680ffd408220b1aa3c7
         {/* <Route path='/viewDeluxe' element={<VDeluxe />}></Route>
         <Route path='/viewStandar' element={<VStandar />}></Route>
         <Route path='/viewSuperior' element={<VSuperior />}></Route> */}
