@@ -16,6 +16,7 @@ import Facility from './pages/pagesUser/facilitas';
 // import VSuperior from './pages/pagesUser/vSuperior';
 import Contact from './pages/pagesUser/contact';
 import KamarCenter from './components/userComponents/pilihanKamar/kamarCenter';
+import Kamar from './pages/pagesAdmin/kamar';
 import Valentineoffering from './components/descOffering/valentineOffering';
 
 
@@ -36,7 +37,8 @@ function App() {
         <Route path='/kamarSuperior' element={<KamarSuperior />}></Route>
         <Route path='/admin' element={<Admin />}></Route>
         <Route path='/KamarCenter' element={<KamarCenter />}></Route>
-        <Route path='/valentineoffering' element={<Valentineoffering />}></Route>
+        <Route path='/adminKamar' element={<Kamar />}></Route>
+        <Route path='/valentineOffering' element={<Valentineoffering />}></Route>
         {/* <Route path='/viewDeluxe' element={<VDeluxe />}></Route>
         <Route path='/viewStandar' element={<VStandar />}></Route>
         <Route path='/viewSuperior' element={<VSuperior />}></Route> */}
