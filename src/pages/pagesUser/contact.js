@@ -1,16 +1,17 @@
 import Footer from "../../components/userComponents/layouts/footer"
 import Navbar from "../../components/userComponents/layouts/navbar"
-import MainAbout from "../../components/userComponents/mainSection/mainAbout"
+import MainContact from "../../components/userComponents/mainSection/mainContact"
 
 
-const About = () => {
+
+const Contact = () => {
     return(
         <div className="abo">
             <Navbar />
-            <MainAbout />
+            <MainContact />
             <Footer />
         </div>
     )
 }
 
-export default About
+export default Contact

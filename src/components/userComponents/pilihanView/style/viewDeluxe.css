@@ -1,5 +1,16 @@
-.hotel2{
-    width: 100%;
-    height: 100px;
-    filter: brightness(40%);
+.view-deluxe{
+    text-align: center;
+}
+.view-deluxe h1{
+    font-size: 20px;
+}
+
+.view-deluxeImg{
+    display: flex;
+}
+
+.view-deluxeImg img{
+    border-radius: 20px;
+    width: 70%;
+    height: 80%;
 }

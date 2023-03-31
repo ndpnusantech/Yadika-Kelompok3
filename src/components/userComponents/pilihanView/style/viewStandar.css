@@ -1,0 +1,17 @@
+.view-standar{
+    text-align: center;
+    margin-top: 20px;
+}
+.view-standar h1{
+    font-size: 20px;
+}
+
+.view-standarImg{
+    display: flex;
+}
+
+.view-standarImg img{
+    border-radius: 20px;
+    width: 70%;
+    height: 80%;
+}
