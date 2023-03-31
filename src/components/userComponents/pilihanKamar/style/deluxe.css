@@ -1,5 +1,5 @@
 .deluxe {
-    height: 100vh;
+    height: 120vh;
     position: relative;
 }
 .deluxe h2 {
@@ -7,17 +7,11 @@
     margin-left: 50px;
 }
 
-.hotel231{
-    width: 100%;
-    height: 100px;
-    filter: brightness(40%);
-}
-
 .deluxe-container{
     margin-top: 30px;
 }
 
-.deluxe-container img{
+.gambar-deluxe img{
     width: 40%;
     margin-left: 100px;
     border-radius: 20px;
@@ -41,4 +35,8 @@
 }
 .a-deluxe{
     color: black;
+}
+
+.deluxe-pantai img{
+    border-radius: 10px;
 }

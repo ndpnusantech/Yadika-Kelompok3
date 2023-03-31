@@ -25,7 +25,6 @@ const Slide = () => {
                 <p className='des1'>Deluxe room</p>
                 <div className="des2">
                 <p>Ruangan ini diisi dengan double bed</p>
-                <button>Test</button>
                 </div>
                 </div>
             </Carousel.Item>

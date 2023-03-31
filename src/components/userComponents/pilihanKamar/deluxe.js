@@ -5,10 +5,11 @@ import { AiOutlineWifi } from "react-icons/ai";
 const Deluxe = () => {
     return(
         <div className="deluxe">
-             <img src="./images/hotel1.jpg" className='hotel231' />
                 <h2><FaBed /> Deluxe Room</h2>
              <div className="deluxe-container">
-            <img src="./images/kamar1.jpg" />
+                <div className="gambar-deluxe">
+            <img src="./images/kamar1.jpg" alt=''/>
+            </div>
             <table className='deluxe1'>
             <tr>
             <td><h3><b>What is in this room?</b></h3></td>
@@ -18,6 +19,17 @@ const Deluxe = () => {
             <td>Di atas tipe kamar hotel superior room adalah deluxe room. <br /> Kamar ini tentu memiliki kamar yang lebih besar. <br /> Tersedia pilihan kasur yang bisa kamu pilih, <br /> double bed atau twin bed. Biasanya, <br /> dari segi interior kamar ini terkesan lebih mewah.</td>
             </tr>
             <br />
+            <tr>
+                <td><h3><b>Views</b></h3></td>
+            </tr>
+            <tr>
+                <td>Views yang menghadap langsung kepaparan pasir pantai dan luasnya lautan</td>
+            </tr><br />
+            <div className="deluxe-pantai">
+            <tr>
+            <td><img src="./images/pantai.webp" alt="" style={{width : '230px'}} /></td>
+            </tr><br />
+            </div>
             <tr>
                 <td><h4><b>Other Facilities</b></h4></td>
             </tr>

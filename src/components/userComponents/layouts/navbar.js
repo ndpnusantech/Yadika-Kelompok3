@@ -49,9 +49,9 @@ const Navbar = () => {
             <div className='navbar'>
                 <img src="./images/logo.png" className='navbarimg' alt="" width={42} height={45} />
                 <h2>ooheng</h2>
-                <ul>
+                <ul style={{listStyle:'none'}}>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li><a href="/facility">Facility</a></li>
                 </ul>
             </div>
