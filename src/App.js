@@ -9,6 +9,8 @@ import KamarStandar from './pages/pagesUser/kamarStandar';
 import KamarDeluxe from './pages/pagesUser/kamarDeluxe';
 import KamarSuperior from './pages/pagesUser/kamarSuperior';
 import Admin from './pages/pagesAdmin/admin';
+import Kamar from './pages/pagesAdmin/kamar';
+import './App.css'
 import './App.css'  
 import Facility from './pages/pagesUser/facilitas';
 // import VDeluxe from './pages/pagesUser/vDeluxe';
@@ -36,6 +38,8 @@ function App() {
         <Route path='/kamarDeluxe' element={<KamarDeluxe />}></Route>
         <Route path='/kamarSuperior' element={<KamarSuperior />}></Route>
         <Route path='/admin' element={<Admin />}></Route>
+        <Route path='/kamar' element={<Kamar />}></Route>
+        <Route path='/viewDeluxe' element={<VDeluxe />}></Route>
         <Route path='/KamarCenter' element={<KamarCenter />}></Route>
         <Route path='/adminKamar' element={<Kamar />}></Route>
         <Route path='/valentineOffering' element={<Valentineoffering />}></Route>
