@@ -17,6 +17,7 @@ import Facility from './pages/pagesUser/facilitas';
 import Contact from './pages/pagesUser/contact';
 import KamarCenter from './components/userComponents/pilihanKamar/kamarCenter';
 import Valentineoffering from './components/descOffering/valentineOffering';
+import AdminReservasi from './components/adminComponents/mainAdmin/adminReservasi';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path='/kamarDeluxe' element={<KamarDeluxe />}></Route>
         <Route path='/kamarSuperior' element={<KamarSuperior />}></Route>
         <Route path='/admin' element={<Admin />}></Route>
+        <Route path='/adminReservasi' element={<AdminReservasi />}></Route>
         <Route path='/KamarCenter' element={<KamarCenter />}></Route>
         <Route path='/valentineoffering' element={<Valentineoffering />}></Route>
         {/* <Route path='/viewDeluxe' element={<VDeluxe />}></Route>
