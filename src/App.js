@@ -10,6 +10,14 @@ import UserBooking from './pages/pagesUser/userBooking';
 import KamarStandar from './pages/pagesUser/kamarStandar';
 import KamarDeluxe from './pages/pagesUser/kamarDeluxe';
 import KamarSuperior from './pages/pagesUser/kamarSuperior';
+import Admin from './pages/pagesAdmin/admin';
+import Kamar from './pages/pagesAdmin/kamar';
+import './App.css' 
+import Facility from './pages/pagesUser/facilitas';
+// import VDeluxe from './pages/pagesUser/vDeluxe';
+// import VStandar from './pages/pagesUser/vStandar';
+// import VSuperior from './pages/pagesUser/vSuperior';
+import Contact from './pages/pagesUser/contact';
 import KamarCenter from './components/userComponents/pilihanKamar/kamarCenter';
 import Valentineoffering from './components/descOffering/valentineOffering';
 import Admin from './pages/pagesAdmin/admin';
@@ -35,6 +43,9 @@ function App() {
         <Route path='/valentineOffering' element={<Valentineoffering />}></Route>
         <Route path='/kamarCenter' element={<KamarCenter />}></Route>
         <Route path='/admin' element={<Admin />}></Route>
+        <Route path='/kamar' element={<Kamar />}></Route>
+        <Route path='/viewDeluxe' element={<VDeluxe />}></Route>
+        <Route path='/KamarCenter' element={<KamarCenter />}></Route>
         <Route path='/adminKamar' element={<Kamar />}></Route>
         <Route path='/adminLogin' element={<LoginA />}></Route>
       </Routes>
