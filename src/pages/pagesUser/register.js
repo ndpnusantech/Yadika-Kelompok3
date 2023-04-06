@@ -1,7 +1,6 @@
-import MainRegister from "../../components/userComponents/mainSection/mainRegister"
+import MainRegister from "../../components/userComponents/loginRegister/mainRegister"
 
-
-const Register = () => {
+const RegisterU = () => {
     return(
         <div className="Login">
                 <MainRegister />
@@ -9,4 +8,4 @@ const Register = () => {
     )
 }
 
-export default Register
+export default RegisterU
