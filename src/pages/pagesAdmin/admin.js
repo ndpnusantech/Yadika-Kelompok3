@@ -1,11 +1,13 @@
-import NavbarAdmin from "../../components/adminComponents/layouts/navbarAdmin"
+import NavbarAdmin from "../../components/adminComponents/layouts/navbarAdmin";
+import Navtest from "./navtest";
 
 const Admin = () => {
-    return(
-        <>
-        <NavbarAdmin />
-        </>
-    )
-}
+  return (
+    <>
+      {/* <NavbarAdmin /> */}
+      <Navtest />
+    </>
+  );
+};
 
-export default Admin
+export default Admin;

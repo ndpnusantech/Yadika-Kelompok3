@@ -1,0 +1,27 @@
+.containerTable button{
+  width: 100px;
+  background-color: rgb(18, 189, 241);
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+.headText{
+  text-align: center;
+}
+
+.containerTable{
+  width: 70%;
+}
+
+.buttonJenis{
+  width: ;
+}
+
+.editTable{
+  background-color: rgb(230, 197, 148);
+  text-align: center;
+}
+
+.inputHarga{
+  color: black;
+}
