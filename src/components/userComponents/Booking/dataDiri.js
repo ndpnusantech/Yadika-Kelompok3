@@ -8,6 +8,7 @@ import "./datadiri.css";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import React, { useState } from "react";
+import PilihanPembayaran from "./pilihanPembayaran/pilihanPembayaran";
 
 const DataDiri = () => {
   const [checkInDate, setCheckInDate] = useState(null);
@@ -20,22 +21,15 @@ const DataDiri = () => {
   return (
     <div className="awal">
       <center>
-        <h2 className="awalStandar">Standar room</h2>
+        <h2 className="awalStandar"><b>Standar room</b></h2>
       </center>
-      {/* <img src="./images/hotel1.jpg" className='hotel231' /> */}
       <div className="datadiri">
-        <h2>Mengisi data diri</h2>
+        <h2><b>Mengisi data diri</b></h2>
         <br />
         <Form.Group className="mb-3" controlId="formGridAddress1">
           <Form.Label>Nama Lengkap</Form.Label>
           <Form.Control placeholder="Masukan Nama Lengkap" />
         </Form.Group>
-
-        {/* <Form.Group className="mb-3" controlId="formGridAddress1">
-          <Form.Label>Tempat/Tanggal Lahir</Form.Label>
-          <Form.Control placeholder="Masukan Tempat/Tanggal Lahir" />
-        </Form.Group> */}
-
         <Form>
           <Row className="mb-3">
             <Form.Group as={Col} controlId="formGridEmail">
@@ -114,7 +108,7 @@ const DataDiri = () => {
             {selectedPaymentMethod ? selectedPaymentMethod : 'Pilih metode pembayaran'}
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item eventKey="Transfer Bank">Transfer Bank</Dropdown.Item>
+            <Dropdown.Item eventKey="Transfer Bank"><PilihanPembayaran /></Dropdown.Item>
             <Dropdown.Item eventKey="Kartu Kredit">Kartu Kredit</Dropdown.Item>
             <Dropdown.Item eventKey="E-wallet">E-wallet</Dropdown.Item>
             <Dropdown.Item eventKey="Cod">Cod</Dropdown.Item>
