@@ -1,5 +1,5 @@
-import React from 'react';
-import Button from 'react-bootstrap/Button';
+import React from "react";
+import Button from "react-bootstrap/Button";
 
 class Seat extends React.Component {
   constructor(props) {
@@ -13,12 +13,16 @@ class Seat extends React.Component {
   }
 
   render() {
-    const buttonVariant = this.state.isTaken ? 'danger' : 'success';
+    const buttonVariant = this.state.isTaken ? "danger" : "success";
 
     return (
       <div>
-        <Button variant={buttonVariant} onClick={this.handleClick} style={{ margin: '5px' }}>
-          {this.state.isTaken ? 'Terisi' : 'Kosong'}
+        <Button
+          variant={buttonVariant}
+          onClick={this.handleClick}
+          style={{ margin: "5px" }}
+        >
+          {this.state.isTaken ? "Terisi" : "Kosong"}
         </Button>
       </div>
     );
