@@ -1,10 +1,10 @@
 .adminNavbar {
     display: flex;
     flex-direction: column;
-    border: 1px solid orange;
-    width: 270px;
-    background-color: orange;
-    height: 668px;
+    border: 1px solid rgb(166, 166, 166);
+    width: 200px;
+    background-color:  rgb(166, 166, 166);
+    height: 800px;
     font-family: 'Jua', sans-serif;
     border-radius: 2px;
 }
@@ -16,26 +16,26 @@
 
 .imgAdmin {
     position: absolute;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 10px;
 }
 
 .h2Admin{
     position: absolute;
-    margin-left: 269px;
-    border: 1px solid aqua;
-    background-color: aqua;
-    width: 78.9%;
+    margin-left: 199px;
+    border: 1px solid rgb(60, 218, 230);
+    background-color: rgb(60, 218, 230);
+    width: 86.9%;
     height: 8%;
 }
 .h2Admin {
-    padding-top: 7px;
+    padding-top: 9px;
     padding-left: 20px;
 }
 
 .h1Admin {
-    margin-top: 50%;
-    margin-left: 50px;
+    margin-top: 70%;
+    margin-left: 5px;
 }
 
 .ulNavbar {
@@ -45,4 +45,16 @@
 
 .ulNavbar li a {
     font-size: 25px;
+    margin-left:-50px;
 }
+.h3teks{
+    margin-left: 250px;
+    margin-top: -650px;
+}
+.pilihan{
+    margin-left: 250px;
+}
+.pilih{
+    width: 250px;
+}
+

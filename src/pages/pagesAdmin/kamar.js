@@ -1,10 +1,12 @@
-import Navkamar from "../../components/adminComponents/layouts/navkamar"
+import NavbarAdmin from "../../components/adminComponents/layouts/navbarAdmin"
 import SeatList from "../../components/adminComponents/mainAdmin/seatlist"
+import Seat from "../../components/adminComponents/mainAdmin/seat"
 const Kamar = () => {
     return(
         <>
         <NavbarAdmin />
-        <MainKamar />
+        <Seat />
+        <SeatList />
         </>
     )
 }

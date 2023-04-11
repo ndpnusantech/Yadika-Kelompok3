@@ -9,14 +9,12 @@ import KamarStandar from './pages/pagesUser/kamarStandar';
 import KamarDeluxe from './pages/pagesUser/kamarDeluxe';
 import KamarSuperior from './pages/pagesUser/kamarSuperior';
 import Admin from './pages/pagesAdmin/admin';
-import './App.css'
 import Facility from './pages/pagesUser/facilitas';
 import Contact from './pages/pagesUser/contact';
 import KamarCenter from './components/userComponents/pilihanKamar/kamarCenter';
 import Kamar from './pages/pagesAdmin/kamar';
 import Valentineoffering from './components/descOffering/valentineOffering';
-
-
+import VDeluxe from './components/userComponents/pilihanView/viewDeluxe'
 function App() {
   return (
     <div className="App">
@@ -34,7 +32,6 @@ function App() {
         <Route path='/kamarSuperior' element={<KamarSuperior />}></Route>
         <Route path='/admin' element={<Admin />}></Route>
         <Route path='/kamar' element={<Kamar />}></Route>
-        <Route path='/viewDeluxe' element={<VDeluxe />}></Route>
         <Route path='/kamar' element={<Kamar />}></Route>
         <Route path='/viewDeluxe' element={<VDeluxe />}></Route>
         <Route path='/KamarCenter' element={<KamarCenter />}></Route>
