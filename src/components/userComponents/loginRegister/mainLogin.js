@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { Form, Button, Alert } from "react-bootstrap";
-import './style/mainLogin.css'
+import "./style/mainLogin.css";
+import Success from "../success animation/success";
 
 function MainLogin() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
   const [showAlert, setShowAlert] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -15,21 +17,26 @@ function MainLogin() {
       setShowAlert(true);
       setMessage("Mohon lengkapi data login");
     } else {
-        const user = { username, password}
-        const json = JSON.stringify(user);
-        localStorage.getItem(username, json);
-        setMessage("Login Sucses")
-        window.open('/' ,'_self')
+      const user = { username, password };
+      const json = JSON.stringify(user);
+      localStorage.getItem(username, json);
+      setSuccess(true);
+      setTimeout(() => {
+        setSuccess(true);
+        window.open("/", "_self");
+      }, 1000);
     }
   };
-
   return (
     <center>
-      <div className="loginUser">
-        <div className="head-loginUser">
-          <h1>Kooheng</h1>
-        </div>
-        <h1>Login</h1>
+      {success ? (
+        <Success success="success to login" />
+      ) : (
+        <div className="loginUser">
+          <div className="head-loginUser">
+            <h1>Kooheng</h1>
+          </div>
+          <h1>Login</h1>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formBasicEmail">
               <Form.Label className="label-login">USERNAME</Form.Label>
@@ -62,6 +69,7 @@ function MainLogin() {
             </Alert>
           )}
         </div>
+      )}
     </center>
   );
 }

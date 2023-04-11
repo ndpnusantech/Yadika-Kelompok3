@@ -1,11 +1,15 @@
+.awalStandar {
+  margin-top: 40px;
+  font-size: 35px;
+}
 .datadiri {
   margin-top: 30px;
   width: 25rem;
   margin-left: 150px;
   margin-bottom: 100px;
 }
-.awalStandar {
-  margin-top: 40px;
+.datadiri h2{
+  font-size: 30px;
 }
 .hotel {
   margin-left: 60%;

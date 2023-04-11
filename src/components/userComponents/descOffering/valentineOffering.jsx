@@ -1,5 +1,5 @@
-import Footer from '../userComponents/layouts/footer'
-import Navbar from '../userComponents/layouts/navbar'
+import Footer from '../layouts/footer'
+import Navbar from '../layouts/navbar'
 import './valentineOffering.css'
 // import './layouts/navbar.css'
 
