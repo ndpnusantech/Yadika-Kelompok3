@@ -1,10 +1,10 @@
 import AdminLogin from "../../components/adminComponents/Login/adminLogin"
 
-const LoginA = () => {
+const LoginAdmin = () => {
     return(
         <div className="logina">
             <AdminLogin />
         </div>
     )
 }
-export default LoginA
+export default LoginAdmin

@@ -1,33 +1,34 @@
-import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import { Dropdown, Form } from "react-bootstrap";
+import React, { useState } from "react";
+import Dana from "./pembayaran/dana";
+import Cod from "./pembayaran/cod";
+const PilihanPembayaran = () =>{
+    const [selectedPaymentMethod, setSelectedPaymentMethod] = useState('');
 
-function PilihanPembayaran() {
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
-  return (
-    <>
-      <img src="./images/dana.png" width={40} variant="primary" onClick={handleShow} />
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title> <img src="./images/dana.png" width={40}/>Dana</Modal.Title>
-        </Modal.Header>
-        <Modal.Body> <b>Checkin-CheckOut :</b> <br /> 28-03-2023 / 29-03-2023</Modal.Body>
-        <Modal.Body>Harga : RP.500k</Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Bayar
-          </Button>
-        </Modal.Footer>
-      </Modal>
-    </>
-  );
+    const handlePaymentMethodChange = (eventKey) => {
+        setSelectedPaymentMethod(eventKey);
+      };
+    
+    return(
+        <Form>
+        <Form.Group controlId="paymentMethod">
+        <Form.Label>Metode Pembayaran</Form.Label>
+          <Dropdown onSelect={handlePaymentMethodChange}>
+            <Dropdown.Toggle variant="secondary">
+              {selectedPaymentMethod
+                ? selectedPaymentMethod
+                : "Pilih metode pembayaran"}
+            </Dropdown.Toggle>
+            <Dropdown.Menu>
+              <Dropdown.Item eventKey="Dana">
+                <Dana />
+              </Dropdown.Item>
+              <Dropdown.Item eventKey="Cod"> <Cod /></Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+        </Form.Group>
+      </Form>
+    )
 }
 
 export default PilihanPembayaran
