@@ -1,5 +1,5 @@
 import Collom from "../MainPage/collom";
-import Penawaran from "../MainPage/offer";
+import Penawaran from "../MainPage/penawaran";
 import Pilihan from "../MainPage/Pilihan";
 import Slide from "../MainPage/preview"
 import "./style/mainHome.css"

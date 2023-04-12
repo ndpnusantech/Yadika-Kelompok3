@@ -1,0 +1,15 @@
+.offer-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px;
+}
+
+.offer-text {
+    padding: 20px 20px 0 20px;
+    margin-top: 60px;
+}
+
+.offer-text p{
+    margin-top: -25px;
+}

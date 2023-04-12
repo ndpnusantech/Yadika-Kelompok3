@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import Special from '../data/data-offer';
-import './style/offer.css'
+import './style/penawaran.css'
 
 const Penawaran = () => {
     return(

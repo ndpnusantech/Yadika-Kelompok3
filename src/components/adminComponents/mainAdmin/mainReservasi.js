@@ -238,5 +238,6 @@ const MainReservasi =(props) => {
   );
 }
 
-ReactDOM.render(<MainReservasi />, document.getElementById("root"));
+
+
 export default MainReservasi;
