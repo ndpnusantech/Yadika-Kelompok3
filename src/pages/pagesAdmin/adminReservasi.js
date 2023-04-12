@@ -1,11 +1,11 @@
 import React from 'react'
-import MainReservasi from '../../components/adminComponents/mainAdmin/mainReservasi';
-import './style/adminReservasi.css'
+import "./style/adminReservasi.css"
 import NavbarAdmin from '../../components/adminComponents/layouts/navbarAdmin';
+import MainReservasi from '../../components/adminComponents/mainAdmin/mainReservasi';
 
-function AdminReservasi() {
+const AdminReservasi = () => {
   return (
-    <div className='adminReservasi'>
+    <div className='reservasiContent'>
         <NavbarAdmin />
         <MainReservasi />
     </div>

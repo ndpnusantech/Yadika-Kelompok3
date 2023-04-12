@@ -1,3 +1,4 @@
-.adminReservasi{
-    margin-top: 500px;
+.reservasiContent{
+    display: flex;
+    flex-direction: row;
 }

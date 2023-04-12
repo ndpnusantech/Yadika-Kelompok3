@@ -16,7 +16,7 @@ function AdminLogin() {
       setMessage("Mohon lengkapi data login");
     } else if (username === "admin1" && password === "123") {
       setMessage("Login berhasil");
-      window.open("/", "_self");
+      window.open("/adminDashboard", "_self");
     } else {
       setMessage("Login gagal");
     }

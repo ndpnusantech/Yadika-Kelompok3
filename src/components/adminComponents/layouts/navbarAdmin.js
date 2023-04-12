@@ -10,7 +10,7 @@ const NavbarAdmin = () => {
         </div>
         <h1 className='h1Admin'>Dashboard</h1>
             <ul className='ulNavbar'>
-                <li><a href="/adminDasboard">Dashboard</a></li>
+                <li><a href="/adminDashboard">Dashboard</a></li>
                 <li><a href="/adminKamar">Kamar</a></li>
                 <li><a href="/adminReservasi">History</a></li>
             </ul>

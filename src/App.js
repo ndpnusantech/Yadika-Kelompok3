@@ -14,9 +14,9 @@ import KamarCenter from "./components/userComponents/pilihanKamar/kamarCenter";
 import Valentineoffering from "./components/userComponents/descOffering/valentineOffering";
 //admin
 import AdminDasboard from "./pages/pagesAdmin/adminDasboard";
-import Kamar from "./pages/pagesAdmin/kamar";
-import ReservasiSection from "./components/adminComponents/mainSectionAdmin/reservasiSection";
 import LoginAdmin from "./pages/pagesAdmin/adminLogin";
+import KamarAdmin from "./pages/pagesAdmin/adminKamar";
+import AdminReservasi from "./pages/pagesAdmin/adminReservasi";
 
 const App = () => {
   return (
@@ -33,20 +33,13 @@ const App = () => {
         <Route path='/kamarStandar' element={<KamarStandar />}></Route>
         <Route path='/kamarDeluxe' element={<KamarDeluxe />}></Route>
         <Route path='/kamarSuperior' element={<KamarSuperior />}></Route>
-        <Route path='/admin' element={<Admin />}></Route>
-        <Route path='/kamar' element={<Kamar />}></Route>
-        <Route path='/kamar' element={<Kamar />}></Route>
-        <Route path='/viewDeluxe' element={<VDeluxe />}></Route>
-        <Route path='/KamarCenter' element={<KamarCenter />}></Route>
-        <Route path='/adminKamar' element={<Kamar />}></Route>
-        <Route path='/valentineOffering' element={<Valentineoffering />}></Route>
-        <Route path='/valentineOffering' element={<Valentineoffering />}></Route>
-        <Route path='/kamarCenter' element={<KamarCenter />}></Route>'
+        <Route path='/valentineoffering' element={<Valentineoffering />}></Route>
+        <Route path='/kamarCenter' element={<KamarCenter />}></Route>
         {/* admin */}
-        <Route path='/adminDasboard' element={<AdminDasboard />}></Route>
-        <Route path='/adminKamar' element={<Kamar />}></Route>
+        <Route path='/adminDashboard' element={<AdminDasboard />}></Route>
+        <Route path='/adminKamar' element={<KamarAdmin />}></Route>
         <Route path='/adminLogin' element={<LoginAdmin />}></Route>
-        <Route path='/adminReservasi' element={<ReservasiSection />}></Route>
+        <Route path='/adminReservasi' element={<AdminReservasi />}></Route>
       </Routes>
       </BrowserRouter>
     </div>
