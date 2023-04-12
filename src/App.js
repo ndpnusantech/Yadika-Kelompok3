@@ -33,6 +33,13 @@ const App = () => {
         <Route path='/kamarStandar' element={<KamarStandar />}></Route>
         <Route path='/kamarDeluxe' element={<KamarDeluxe />}></Route>
         <Route path='/kamarSuperior' element={<KamarSuperior />}></Route>
+        <Route path='/admin' element={<Admin />}></Route>
+        <Route path='/kamar' element={<Kamar />}></Route>
+        <Route path='/kamar' element={<Kamar />}></Route>
+        <Route path='/viewDeluxe' element={<VDeluxe />}></Route>
+        <Route path='/KamarCenter' element={<KamarCenter />}></Route>
+        <Route path='/adminKamar' element={<Kamar />}></Route>
+        <Route path='/valentineOffering' element={<Valentineoffering />}></Route>
         <Route path='/valentineOffering' element={<Valentineoffering />}></Route>
         <Route path='/kamarCenter' element={<KamarCenter />}></Route>'
         {/* admin */}
