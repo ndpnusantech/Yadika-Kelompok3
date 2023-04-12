@@ -47,7 +47,7 @@ const MainKamar = () => {
 
   return (
     <div className='semua'>
-      <h4>Kondisi Kamar</h4>
+      <h4 className='h4-adminKamar'>Kondisi Kamar</h4>
     <div className='tabel'>
     <table>
       <tbody>
