@@ -11,7 +11,9 @@ const Navkamar = () => {
         </div>
             <h1 className='h1Admin'>Dashboard</h1>
             <ul className='ulNavbar'>
-                <li><a href=""> Kamar</a></li>
+                <li><a href="/adminDasboard"> Dashboard</a></li>
+                <li><a href="/adminKamar"> Kamar</a></li>
+                <li><a href="/adminReservasi"> History</a></li>
             </ul>
         </nav>
         <div className='h3teks'>
