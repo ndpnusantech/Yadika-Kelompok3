@@ -157,13 +157,13 @@ const DataDiri = () => {
           <Modal.Title>Booking Sucses</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p><b>Email:</b> {bookingData.name}</p>
+          <p><b>Name:</b> {bookingData.name}</p>
           <p><b>Email:</b> {bookingData.email}</p>
           <p><b>Nik :</b> {bookingData.nik}</p>
           <p><b>Alamat :</b> {bookingData.alamat}</p>
           <p><b>Check-in:</b> {bookingData.checkin}</p>
           <p><b>Check-out:</b> {bookingData.checkout}</p>
-          <p><b>Nohp :</b> {bookingData.noHp}</p>
+          <p><b>No hp :</b> {bookingData.noHp}</p>
           <p><b>Metode Pembayaran :</b> {bookingData.noHp}</p>
           <p><b>Permintaan Khusus :</b> {bookingData.permintaan}</p>
         </Modal.Body>

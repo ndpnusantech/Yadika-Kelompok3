@@ -8,26 +8,23 @@ const MainReservasi =(props) => {
   const [data, setData] = useState([
     {
       id: 1,
-      name: "Product A",
+      name: "Afif",
       type: "Deluxe",
-      size: "M-L",
-      stock: 300,
+      date: "10-April-2023",
       price: "100.000",
     },
     {
       id: 2,
-      name: "Product B",
+      name: "Almustofa",
       type: "Deluxe",
-      size: "M-L",
-      stock: 300,
+      date: "10-April-2023",
       price: "100.000",
     },
     {
       id: 3,
-      name: "Product C",
+      name: "Ajie",
       type: "Deluxe",
-      size: "M-L",
-      stock: 300,
+      date: "10-April-2023",
       price: "100.000",
     },
   ]);
@@ -36,8 +33,7 @@ const MainReservasi =(props) => {
     id: "",
     name: "",
     type: "",
-    size: "",
-    stock: "",
+    date: "",
     price: "",
   });
   
@@ -56,7 +52,7 @@ const MainReservasi =(props) => {
       setData(data.map((item) => (item.id === formData.id ? formData : item)));
       setEditing(false);
     }
-    setFormData({ id: "", name: "", type: "", size: "", stock: "", price: "" });
+    setFormData({ id: "", name: "", type: "", date: "", price: "" });
   };
 
   const handleEdit = (id) => {
@@ -110,14 +106,14 @@ const MainReservasi =(props) => {
                 <td>{item.id}</td>
                 <td>{item.name}</td>
                 <td>{item.type}</td>
-                <td>{item.size}</td>
+                <td>{item.date}</td>
                 <td><Form>
         <Form.Group controlId="paymentMethod">
           <Dropdown onSelect={handlePaymentMethodChange}>
             <Dropdown.Toggle variant="secondary">
               {selectedPaymentMethod
                 ? selectedPaymentMethod
-                : "Pilih metode pembayaran"}
+                : "Status pembayaran"}
             </Dropdown.Toggle>
             <Dropdown.Menu>
               <Dropdown.Item eventKey="Dibayar">
@@ -198,12 +194,12 @@ const MainReservasi =(props) => {
 
                 {/* product price */}
                 <Form.Group controlId="formBasicSize">
-                  <Form.Label>Size</Form.Label>
+                  <Form.Label>Check in date</Form.Label>
                   <Form.Control
                     type="teks"
-                    placeholder="Enter size"
-                    name="size"
-                    value={formData.size}
+                    placeholder="Check in date"
+                    name="date"
+                    value={formData.date}
                     onChange={handleFormChange}
                   />
                 </Form.Group>
