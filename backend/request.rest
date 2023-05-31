@@ -1,0 +1,11 @@
+GET http://localhost:3500/users
+###
+POST http://localhost:3500/users
+Content-Type: application/json 
+
+{
+    "username" : "asjka",
+    "password" : "123",
+    "confirmPassword" : "123",
+    "no_Hp" : "+62787832328"
+}

@@ -13,7 +13,7 @@
 }
 .hotel {
   margin-left: 60%;
-  margin-top: -660px;
+  margin-top: -800px;
 }
 .hotel231 {
   width: 100%;
@@ -62,7 +62,6 @@ label {
   border: 1px solid #ccc;
   height: 38px;
   border-radius: 5px;
-  margin-top: 10px;
 }
 
 .datePicker .react-datepicker__day--selected {
@@ -74,3 +73,4 @@ label {
   /* background-color: #ffffff; */
   color: #000000;
 }
+

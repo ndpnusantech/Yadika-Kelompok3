@@ -154,15 +154,16 @@ const DataDiri = () => {
         </Form>
         <Modal show={showModal} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Booking Sucses</Modal.Title>
+          <Modal.Title><b style={{fontSize:'35px', marginLeft:'120px'}}>Booking Sucses</b></Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p><b>Name:</b> {bookingData.name}</p>
-          <p><b>Email:</b> {bookingData.email}</p>
+          <p><b>Name :</b> {bookingData.name}</p>
+          <p><b>Type Kamar :</b> {bookingData.name}</p>
+          <p><b>Email :</b> {bookingData.email}</p>
           <p><b>Nik :</b> {bookingData.nik}</p>
           <p><b>Alamat :</b> {bookingData.alamat}</p>
-          <p><b>Check-in:</b> {bookingData.checkin}</p>
-          <p><b>Check-out:</b> {bookingData.checkout}</p>
+          <p><b>Check-in :</b> {bookingData.checkin}</p>
+          <p><b>Check-out :</b> {bookingData.checkout}</p>
           <p><b>No hp :</b> {bookingData.noHp}</p>
           <p><b>Metode Pembayaran :</b> {bookingData.noHp}</p>
           <p><b>Permintaan Khusus :</b> {bookingData.permintaan}</p>
@@ -188,7 +189,6 @@ const DataDiri = () => {
             </Card.Text>
             <hr />
             <Card.Title>Untuk Pembayaran DP minimal 30% Dari harga</Card.Title>
-            {/* <Button variant="primary">PESAN</Button> */}
           </Card.Body>
         </Card>
       </div>
